@@ -12,10 +12,10 @@
 
 .logo {
   font-size: 25px;
-  font-family: var(--font-family);
+  font-family: var(--font-secondary);
   font-weight: 200;
   text-decoration: none;
-  color: var(--color-text);
+  color: var(--text-primary);
 }
 
 
@@ -35,15 +35,15 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-text);
+  color: var(--text-primary);
   text-decoration: none;
   transition: color 0.2s ease;
   
 }
 
 .menuItems a:hover {
-  color: var(--color-text-hover);
-  
+  color: var(--accent-hover);
+  text-shadow: var(--glow-sm);
 }
 
 @media screen and (max-width: 830px) {
@@ -73,14 +73,10 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-primary);
     padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: var(--glow-md);
   }
 
   .menuOpen {

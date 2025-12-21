@@ -2,18 +2,17 @@
 @import "../../vars.css";
 
 .container {
-color: var(--text-color);
+color: var(--text-primary);
 margin-top: 79px;
-margin-left: 10% ;
-margin-right: 10% ;
+margin-left: 10%;
+margin-right: 10%;
 }
 
 .title {
-    color: var(--text-color);
+    color: var(--text-primary);
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.25px;
-    
 }
 
 .content {
@@ -41,10 +40,18 @@ margin-right: 10% ;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: var(--secondary-color);
+    background-color: var(--bg-secondary);
+    border: 2px solid var(--border-primary);
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
+}
+
+.skillImageContainer:hover {
+    border-color: var(--accent-primary);
+    box-shadow: var(--glow-md);
+    transform: scale(1.1);
 }
 
 .skillImageContainer img {
@@ -55,8 +62,7 @@ margin-right: 10% ;
 .skill p {
     font-size: 25px;
     font-weight: 500;
-    font-family: var(--font-roboto);
-    
+    font-family: var(--font-primary);
 }
 
 .history {
@@ -71,11 +77,16 @@ margin-right: 10% ;
     flex-direction: row;
     align-items: center;
     gap: 17px;
-    background: #58585a;
-    background: linear-gradient(90deg, #58585a 0%, rgba(25, 55, 109, 0) 100%);
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-muted);
     border-radius: 10px;
     padding: 24px;
+    transition: all 0.3s ease;
+}
 
+.historyItem:hover {
+    border-color: var(--accent-primary);
+    box-shadow: var(--glow-sm);
 }
 
 .historyItem img {
@@ -86,8 +97,7 @@ margin-right: 10% ;
 }
 
 .historyItemDetails {
-    font-family: var(--font-roboto);
-
+    font-family: var(--font-primary);
 }
 
 .historyItemDetails h3 {
@@ -98,14 +108,14 @@ margin-right: 10% ;
 .organizationLink {
     font-size: 30px;
     font-weight: 500;
-    color: var(--text-color);
+    color: var(--text-primary);
     text-decoration: none;
+    transition: all 0.2s ease;
 }
 
 .organizationLink:hover {
-    font-size: 30px;
-    font-weight: 500;
-    color:#0056b3;
+    color: var(--accent-primary);
+    text-shadow: var(--glow-sm);
     text-decoration: underline;
 }
 

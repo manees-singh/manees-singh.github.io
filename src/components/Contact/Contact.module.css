@@ -1,34 +1,32 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
+  color: var(--text-primary);
   margin-top: 40px;
-  background-color: var(--color-secondary);
+  background-color: var(--bg-secondary);
+  border-top: 2px solid var(--border-primary);
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: space-evenly;
   width: 100vw;
   padding: 58px 10%;
   gap: 10px;
-  /* changed from row to column over here */
-
 }
 
 
 
 .text h2 {
-  color: var(--text-color);
+  color: var(--text-primary);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
-  
 }
 
 .text p {
   margin-top: 10px;
   font-size: 20px;
   font-weight: 500;
-  font-family: var(--font-roboto);
+  font-family: var(--font-primary);
 }
 
 .links {
@@ -60,11 +58,17 @@
 }
 
 .link a {
-  color: var(--color-text);
+  color: var(--text-primary);
   text-decoration: none;
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  transition: all 0.2s ease;
+}
+
+.link a:hover {
+  color: var(--accent-primary);
+  text-shadow: var(--glow-sm);
 }
 
 @media screen and (max-width: 830px) {

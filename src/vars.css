@@ -1,19 +1,87 @@
-/* folder contains components that can be used in several places without much changes. */
+/* Theme system with two distinct visual modes */
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-
+/* Default/fallback values */
 :root {
-    --primary-color: #576cbc;
-    --secondary-color: #19376d;
-    --background-color: #ecf0f1;
-    --text-color: #000000;
-    --color-dark: #0b2447;
-    --color-bg: #F0F4F8;
-    --font-family: 'Baskeville SC';
-    --color-text-hover: #64b5f6;
+    --font-mono: 'Roboto Mono', 'Courier New', monospace;
+    --font-sans: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-serif: 'Baskervville SC', Georgia, serif;
+}
+
+[data-theme="dark"] {
+    /* Backgrounds */
+    --bg-primary: #0a0a0a;
+    --bg-secondary: #000000;
+    --bg-tertiary: #0f0f0f;
     
+    /* Text colors */
+    --text-primary: #00ff41;
+    --text-secondary: #00cc33;
+    --text-tertiary: #009929;
+    --text-muted: #006622;
+    
+    /* Accent & interactive */
+    --accent-primary: #00ff41;
+    --accent-hover: #33ff66;
+    --accent-active: #00cc33;
+    
+    /* Borders & dividers */
+    --border-primary: #00ff41;
+    --border-secondary: #00cc33;
+    --border-muted: #006622;
+    
+    /* Effects */
+    --glow-sm: 0 0 5px rgba(0, 255, 65, 0.5);
+    --glow-md: 0 0 10px rgba(0, 255, 65, 0.6), 0 0 20px rgba(0, 255, 65, 0.3);
+    --glow-lg: 0 0 15px rgba(0, 255, 65, 0.7), 0 0 30px rgba(0, 255, 65, 0.4), 0 0 45px rgba(0, 255, 65, 0.2);
+    
+    /* Semantic colors */
+    --color-success: #00ff41;
+    --color-warning: #ffaa00;
+    --color-error: #ff0033;
+    --color-info: #00ccff;
+    
+    /* Typography */
+    --font-primary: var(--font-mono);
+    --font-secondary: var(--font-sans);
+}
 
-
-    --font-roboto: 'Monserrat';
+/* ☀️ LIGHT THEME - Original Blue Color Palette */
+[data-theme="light"] {
+    /* Backgrounds */
+    --bg-primary: #F0F4F8;
+    --bg-secondary: #ecf0f1;
+    --bg-tertiary: #ffffff;
+    
+    /* Text colors */
+    --text-primary: #000000;
+    --text-secondary: #0b2447;
+    --text-tertiary: #19376d;
+    --text-muted: #576cbc;
+    
+    /* Accent & interactive */
+    --accent-primary: #576cbc;
+    --accent-hover: #64b5f6;
+    --accent-active: #19376d;
+    
+    /* Borders & dividers */
+    --border-primary: #576cbc;
+    --border-secondary: #19376d;
+    --border-muted: #ecf0f1;
+    
+    /* Effects */
+    --glow-sm: none;
+    --glow-md: none;
+    --glow-lg: none;
+    
+    /* Semantic colors */
+    --color-success: #576cbc;
+    --color-warning: #f39c12;
+    --color-error: #e74c3c;
+    --color-info: #64b5f6;
+    
+    /* Typography */
+    --font-primary: var(--font-mono);
+    --font-secondary: var(--font-sans);
 }

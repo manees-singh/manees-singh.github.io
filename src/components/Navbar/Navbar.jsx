@@ -3,17 +3,20 @@ import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Navbar = () => {
+export const Navbar = ({ toggleTheme, currentTheme }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo} href="/">
+      <div className={styles.logo}>
       
           <img
             className={styles.icon}
             src={getImageUrl("nav/lightbulb-30.png")}
-            alt="light-button"
+            alt="theme-toggle-button"
+            onClick={toggleTheme}
+            style={{ cursor: 'pointer' }}
+            title={`Switch to ${currentTheme === 'dark' ? 'light' : 'dark'} mode`}
           />  
         
         
