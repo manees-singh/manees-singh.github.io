@@ -3,8 +3,7 @@
 .container {
   color: var(--text-primary);
   margin-top: 40px;
-  background-color: var(--bg-secondary);
-  border-top: 2px solid var(--border-primary);
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -19,7 +18,8 @@
   color: var(--text-primary);
   font-size: 35px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 1.25px;
+  margin-bottom: 20px;
 }
 
 .text p {
@@ -48,13 +48,26 @@
   width: 50px;
   height: 50px;
   align-items: center;
-  filter: grayscale(100%) brightness(50%);
-  transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
+/* All icons hover - scale effect */
 .link img:hover {
-  filter: grayscale(0%) brightness(100%);
   transform: scale(1.1);
+}
+
+/* Dark mode - brighter on hover */
+[data-theme="dark"] .link img:hover {
+  filter: brightness(1.3);
+}
+
+/* Light mode - grayscale default, full color on hover */
+[data-theme="light"] .link img {
+  filter: grayscale(100%) brightness(50%);
+}
+
+[data-theme="light"] .link img:hover {
+  filter: grayscale(0%) brightness(100%);
 }
 
 .link a {
@@ -71,10 +84,19 @@
   text-shadow: var(--glow-sm);
 }
 
+.copyright {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-tertiary);
+  font-family: var(--font-secondary);
+}
+
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
     gap: 23px;
+    align-items: center;
   }
 
   .text {
@@ -85,5 +107,6 @@
 
   .links {
     align-items: center;
+    justify-content: center;
   }
 }

@@ -13,6 +13,7 @@ margin-right: 10%;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.25px;
+    margin-bottom: 20px;
 }
 
 .content {
@@ -40,7 +41,7 @@ margin-right: 10%;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: var(--bg-secondary);
+    background-color: transparent;
     border: 2px solid var(--border-primary);
     display: flex;
     justify-content: center;
@@ -77,7 +78,7 @@ margin-right: 10%;
     flex-direction: row;
     align-items: center;
     gap: 17px;
-    background: var(--bg-secondary);
+    background: transparent;
     border: 1px solid var(--border-muted);
     border-radius: 10px;
     padding: 24px;
@@ -134,27 +135,30 @@ margin-right: 10%;
 
 
 @media screen and (max-width: 830px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .content {
         flex-direction: column;
         align-items: center;
         gap: 34px;
-
     }
 
     .skills {
         width: 100%;
         flex-direction: row;
         justify-content: center;
-
     }
 
     .history {
         width: 100%;
         gap: 9px;
-        
     }
 
     .historyItem img {
         display: none;
-     }
+    }
 }

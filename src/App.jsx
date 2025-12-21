@@ -38,7 +38,7 @@ function App() {
     <About />
     <Experience />
     <Projects />
-    <Contact />
+    <Contact currentTheme={theme} />
   </div>;
 }
 

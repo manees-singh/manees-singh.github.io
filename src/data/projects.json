@@ -1,19 +1,29 @@
 [
     {
-      "title": "Olympics Medal Tracker",
-      "imageSrc": "projects/twitterbot.png",
-      "description": "A twitterbot that tweets the latest medal count for the Olympics.",
-      "skills": ["Python", "Tweepy", "GitHub Actions"],
-      "demo": "https://x.com/olympics_24",
-      "source": "https://github.com/manees-singh/olympics-medal"
+      "title": "Survival Cyberdeck",
+      "imageSrc": "projects/survival_cyberdeck.jpg",
+      "description": "A portable computer with radio, maps and tempr. sensor to navigate in remote areas.",
+      "skills": ["C", "Raspberry Pi 5"],
+      "source": "https://github.com/shivanshshrivas/SurvivalCyberDeck"
     },
-    {
+
+        {
       "title": "NeoPyramid",
       "imageSrc": "projects/servo.jpg",
       "description": "Automated mini-tank to shoot targets in the range.",
       "skills": ["Arduino", "C++"],
       "demo": "https://youtube.com/shorts/JTd5zJBiye8?feature=share",
       "source": "https://github.com/manees-singh/NeoPyramid"
+    },
+    
+    {
+      "title": "Olympics Medal Tracker",
+      "imageSrc": "projects/twitterbot.png",
+      "description": "A twitterbot that tweets the latest medal count for the Olympics.",
+      "skills": ["Python", "Tweepy", "GitHub Actions"],
+      "demo": "https://x.com/olympics_24",
+      "source": "https://github.com/manees-singh/olympics-medal"
     }
+
    
   ]

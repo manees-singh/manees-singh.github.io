@@ -12,10 +12,9 @@ export const Navbar = ({ toggleTheme, currentTheme }) => {
       
           <img
             className={styles.icon}
-            src={getImageUrl("nav/lightbulb-30.png")}
+            src={getImageUrl(currentTheme === 'dark' ? 'nav/lightbulb-30.png' : 'nav/dark--30.png')}
             alt="theme-toggle-button"
             onClick={toggleTheme}
-            style={{ cursor: 'pointer' }}
             title={`Switch to ${currentTheme === 'dark' ? 'light' : 'dark'} mode`}
           />  
         

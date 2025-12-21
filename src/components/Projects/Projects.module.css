@@ -8,9 +8,11 @@
 }
 
 .title {
+  color: var(--text-primary);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.25px;
+  margin-bottom: 20px;
 }
 
 .projects {
