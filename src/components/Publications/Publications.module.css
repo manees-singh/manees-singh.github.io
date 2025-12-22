@@ -1,0 +1,115 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--text-primary);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--text-primary);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.25px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 14px;
+}
+
+.publicationList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.publicationItem {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    padding: 0;
+}
+
+.publicationDetails {
+    font-family: var(--font-primary);
+}
+
+.citation {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-primary);
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.doiLink {
+    font-size: 16px;
+    color: var(--accent-primary);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: block;
+    margin-top: 5px;
+}
+
+.doiLink:hover {
+    color: var(--accent-hover);
+    text-shadow: var(--glow-sm);
+}
+
+.award {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    margin-top: 8px;
+}
+
+.showMoreBtn {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-tertiary);
+    font-family: var(--font-secondary);
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.showMoreBtn:hover {
+    color: var(--text-primary);
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .publicationList {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .citation {
+        font-size: 16px;
+    }
+
+    .showMoreBtn {
+        width: 100%;
+        text-align: center;
+    }
+}

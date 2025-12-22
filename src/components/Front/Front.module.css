@@ -47,20 +47,26 @@ span.name {
     font-weight: 300;
     text-shadow: var(--glow-sm);
 }
+
+.buttonContainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 .contactBtn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--accent-primary);
-    color: var(--bg-primary);
+    background-color: transparent;
+    color: var(--text-primary);
     border: 2px solid var(--accent-primary);
     border-radius: 14px;
-    box-shadow: var(--glow-sm);
     box-sizing: border-box;
     cursor: pointer;
     font-family: var(--font-secondary);
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1;
     margin: 0;
     outline: none;
@@ -75,10 +81,8 @@ span.name {
   }
   
   .contactBtn:hover {
-    background-color: var(--accent-hover);
-    border-color: var(--accent-hover);
-    box-shadow: var(--glow-md);
-    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
   }
   
 /* .contactBtn {
@@ -97,6 +101,23 @@ span.name {
     width: 50%;
     z-index: 1;
     border-radius:50%;
+    transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .frontImg {
+    box-shadow: 
+        0 0 20px rgba(0, 255, 65, 0.4),
+        0 0 40px rgba(0, 255, 65, 0.3),
+        0 0 60px rgba(0, 255, 65, 0.2),
+        0 0 80px rgba(0, 255, 65, 0.1);
+}
+
+[data-theme="light"] .frontImg {
+    box-shadow: 
+        0 0 20px rgba(87, 108, 188, 0.4),
+        0 0 40px rgba(100, 181, 246, 0.3),
+        0 0 60px rgba(87, 108, 188, 0.2),
+        0 0 80px rgba(100, 181, 246, 0.1);
 }
 
 
@@ -146,14 +167,15 @@ span.name {
 @media  screen and (max-width:830px) {
     .container {
         flex-direction: column-reverse;
-        
+        gap: 40px;
     }
 
     .content {
-        
         align-items: center;
     }
 
-   
-    
+    .frontImg {
+        width: 70%;
+        margin-bottom: 20px;
+    }
 }

@@ -1,0 +1,83 @@
+[
+  {
+    "title": "A Practical Quantum Solver for Multidimensional Partial Differential Equations",
+    "authors": "Chaudhary, M., El-Araby, K., Nobel, A., Islam, I., Singh, M., Ogundele, S., Egan, K., Thomas, S., Vordtriede, V., Bontrager, D., Kim, S., & El-Araby, E.",
+    "authors_display": "Chaudhary, M., El-Araby, K., Nobel, A., Islam, I., Singh, M., et al.",
+    "year": "2025",
+    "venue": "Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis (SCWorkshops '25)",
+    "location": "St. Louis, MO, USA",
+    "publisher": "ACM",
+    "doi": "https://doi.org/10.1145/3731599.3767550",
+    "type": "journal"
+  },
+  {
+    "title": "Solving Multidimensional Partial Differential Equations Using Efficient Quantum Circuits",
+    "authors": "Chaudhary, M., El-Araby, K., Nobel, A., Jha, V., Kneidel, D., Islam, I., Singh, M., Ogundele, S., Phillips, B., Egan, K., Thomas, S., Bontrager, D., Kim, S., & El-Araby, E.",
+    "authors_display": "Chaudhary, M., El-Araby, K., Nobel, A., Jha, V., Kneidel, D., Islam, I., Singh, M., et al.",
+    "year": "2025",
+    "venue": "Algorithms 2025",
+    "volume": "18(3), 176",
+    "doi": "https://doi.org/10.3390/a18030176",
+    "type": "journal"
+  },
+  {
+    "title": "Quantum Circuit Synthesis Using Fuzzy-Logic-Assisted Genetic Algorithms",
+    "authors": "Islam, I., Jha, V., Thomas, S., Egan, K., Nobel, A., Kim, S., Chaudhary, M., Ogundele, S., Kneidel, D., Phillips, B., Singh, M., El-Araby, K., Bontrager, D., & El-Araby, E.",
+    "authors_display": "Islam, I., Jha, V., Thomas, S., Egan, K., Nobel, A., Kim, S., Chaudhary, M., Ogundele, S., Kneidel, D., Phillips, B., Singh, M., et al.",
+    "year": "2025",
+    "venue": "Algorithms 2025, Special Issue on Algorithms for Quantum Computing",
+    "volume": "18(4), 178",
+    "doi": "https://doi.org/10.3390/a18040178",
+    "type": "journal"
+  },
+  {
+    "title": "Leveraging Data Locality in Quantum Convolutional Classifiers",
+    "authors": "Jeng, M., Nobel, A., Jha, V., Levy, D., Kneidel, D., Chaudhary, M., Islam, I., Facer, A., Singh, M., Baumgartner, E., Vanderhoof, E., Arshad, A., & El-Araby, E.",
+    "authors_display": "Jeng, M., Nobel, A., Jha, V., Levy, D., Kneidel, D., Chaudhary, M., Islam, I., Facer, A., Singh, M., et al.",
+    "year": "2024",
+    "venue": "Entropy 2024, Special Issue on Quantum Computation",
+    "volume": "26(6), 461",
+    "doi": "https://doi.org/10.3390/e26060461",
+    "type": "journal"
+  },
+  {
+    "title": "Optimizing Multidimensional Pooling for Variational Quantum Algorithms",
+    "authors": "Jeng, M. J., Nobel, M. A. I., Jha, V., Levy, D., Kneidel, D., Chaudhary, M., Islam, S. I. U., Baumgartner, E., Vanderhoof, E.L., Facer, A., Singh, M., Arshad, A., & El-Araby, E.",
+    "authors_display": "Jeng, M. J., Nobel, M. A. I., Jha, V., Levy, D., Kneidel, D., Chaudhary, M., Islam, S. I. U., Baumgartner, E., Vanderhoof, E.L., Facer, A., Singh, M., et al.",
+    "year": "2024",
+    "venue": "Algorithms 2024, Special Issue on Quantum Machine Learning",
+    "volume": "17(2), 82",
+    "doi": "https://doi.org/10.3390/a17020082",
+    "type": "journal"
+  },
+  {
+    "title": "A Quantum Solver for Multidimensional Partial Differential Equations: Practical Case Studies",
+    "authors": "Chaudhary, M., El-Araby, K., Nobel, A., Islam, I., Singh, M., Ogundele, S., Egan, K., Thomas, S., Vordtriede, V., Bontrager, D., Kim, S., & El-Araby, E.",
+    "authors_display": "Chaudhary, M., El-Araby, K., Nobel, A., Islam, I., Singh, M., et al.",
+    "year": "2025",
+    "venue": "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC25)",
+    "location": "St. Louis, MO",
+    "award": "Best Research Poster Award Finalist",
+    "type": "poster"
+  },
+  {
+    "title": "Utilizing Quantum Computing for Solving Multidimensional Partial Differential Equations",
+    "authors": "Chaudhary, M., El-Araby, K., Nobel, A., Jha, V., Islam, I., Singh, M., Ogundele, S., Egan, K., Thomas, S., Bontrager, D., Kim, S., Vordtriede, V., Hoopes, H., & El-Araby, E.",
+    "authors_display": "Chaudhary, M., El-Araby, K., Nobel, A., Jha, V., Islam, I., Singh, M., et al.",
+    "year": "2025",
+    "venue": "2025 Quantum Computing User Forum (QCUF)",
+    "location": "Oak Ridge, TN",
+    "award": "Best Poster Award",
+    "type": "poster"
+  },
+  {
+    "title": "An Accurate and Scalable Multidimensional Quantum Solver for Partial Differential Equations",
+    "authors": "Chaudhary, M., Islam, I., Nobel, A., Kneidel, D., Jha, V., Phillips, B., El-Araby, K., Singh, M., & El-Araby, E.",
+    "authors_display": "Chaudhary, M., Islam, I., Nobel, A., Kneidel, D., Jha, V., Phillips, B., El-Araby, K., Singh, M., et al.",
+    "year": "2024",
+    "venue": "The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC24)",
+    "location": "Atlanta, GA",
+    "award": "Best Research Poster Award Finalist",
+    "type": "poster"
+  }
+]

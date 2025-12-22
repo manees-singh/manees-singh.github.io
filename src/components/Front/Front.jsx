@@ -13,7 +13,9 @@ export const Front = () => {
                
             </p>
 
-            <a href="mailto:singmanish5208@gmail.com" className={styles.contactBtn}>Contact Me</a>
+            <div className={styles.buttonContainer}>
+                <a href={getImageUrl("front/Manish_resume.pdf")} download="Manish_Singh_Resume.pdf" className={styles.contactBtn}>My Resume</a>
+            </div>
         </div>
 
         <img 
