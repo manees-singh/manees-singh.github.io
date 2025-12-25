@@ -4,7 +4,8 @@
       "imageSrc": "projects/survival_cyberdeck.jpg",
       "description": "A portable computer with radio, maps and tempr. sensor to navigate in remote areas.",
       "skills": ["C", "Raspberry Pi 5"],
-      "source": "https://github.com/shivanshshrivas/SurvivalCyberDeck"
+      "source": "https://github.com/shivanshshrivas/SurvivalCyberDeck",
+      "demo": "https://github.com/shivanshshrivas/SurvivalCyberDeck"
     },
 
         {
