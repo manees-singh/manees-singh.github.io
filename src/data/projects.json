@@ -1,4 +1,12 @@
 [
+        {
+      "title": "On Your Terms",
+      "imageSrc": "projects/on_your_terms.jpg",
+      "description": "A web-extension to examine if the website comprises your privacy.",
+      "skills": ["n8n", "langchain", "Typescript"],
+      "source": "https://github.com/an-siuu-man/HackUTD-2025",
+      "demo": "https://www.youtube.com/watch?v=Zxkp0P1eMl4&t=13s"
+    },
     {
       "title": "Survival Cyberdeck",
       "imageSrc": "projects/survival_cyberdeck.jpg",
