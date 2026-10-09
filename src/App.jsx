@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import styles from './App.module.css';
+import { MatrixBackground } from './components/MatrixBackground/MatrixBackground';
 import {Navbar} from './components/Navbar/Navbar';
 import { Front  } from './components/Front/Front';
 import { Experience } from './components/Experience/Experience';
@@ -8,17 +9,13 @@ import { Publications } from './components/Publications/Publications';
 import { Contact } from './components/Contact/Contact';
 
 function App() {
-  // Initialize theme from localStorage or system preference
+  // Initialize theme from localStorage or default to dark mode
   const [theme, setTheme] = useState(() => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
       return savedTheme;
     }
-    // Check system preference
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      return 'dark';
-    }
-    return 'light';
+    return 'dark';
   });
 
   // Apply theme on mount and when it changes
@@ -33,6 +30,7 @@ function App() {
   };
   
   return <div className={styles.App} data-theme={theme}>
+    {theme === 'dark' && <MatrixBackground />}
     <Navbar toggleTheme={toggleTheme} currentTheme={theme} />
     <Front />
     <Experience />

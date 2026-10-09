@@ -19,7 +19,7 @@ export const Front = () => {
         </div>
 
         <img 
-        src={getImageUrl("front/profile.png")} 
+        src={getImageUrl("front/profile1.png")} 
         alt="profile" 
         className={styles.frontImg}
         />

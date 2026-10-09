@@ -1,11 +1,12 @@
 [
-        {
-      "title": "On Your Terms",
-      "imageSrc": "projects/on_your_terms.jpg",
-      "description": "A web-extension to examine if the website comprises your privacy.",
-      "skills": ["n8n", "langchain", "Typescript"],
-      "source": "https://github.com/an-siuu-man/HackUTD-2025",
-      "demo": "https://www.youtube.com/watch?v=Zxkp0P1eMl4&t=13s"
+      
+       {
+      "title": "Watchdog",
+      "imageSrc": "projects/dogwatch.jpeg",
+      "description": "Pomodoro-style personal timer based on IMU-sensor.",
+      "skills": ["ESP32", "IMU", "C++"],
+      "source": "https://github.com/manees-singh/hackku26",
+      "demo": "https://www.youtube.com/watch?v=gu2wmz1Y4Xw"
     },
     {
       "title": "Survival Cyberdeck",
@@ -14,8 +15,18 @@
       "skills": ["C", "Raspberry Pi 5"],
       "source": "https://github.com/shivanshshrivas/SurvivalCyberDeck"
     },
+  
+      {
+      "title": "Lock-In Amplifier",
+      "imageSrc": "projects/lockedin.jpeg",
+      "description": "I designed this case for Lock-In Amplifier.",
+      "skills": ["FreeCAD"],
+      "demo": "https://youtube.com/shorts/JTd5zJBiye8?feature=share",
+      "source": "https://github.com/manees-singh/NeoPyramid"
+    },
+    
 
-        {
+    {
       "title": "NeoPyramid",
       "imageSrc": "projects/servo.jpg",
       "description": "Automated mini-tank to shoot targets in the range.",
@@ -26,13 +37,15 @@
 
     
     
+   
+
     {
-      "title": "Olympics Medal Tracker",
-      "imageSrc": "projects/twitterbot.png",
-      "description": "A twitterbot that tweets the latest medal count for the Olympics.",
-      "skills": ["Python", "Tweepy", "GitHub Actions"],
-      "demo": "https://x.com/olympics_24",
-      "source": "https://github.com/manees-singh/olympics-medal"
+      "title": "On Your Terms",
+      "imageSrc": "projects/on_your_terms.jpg",
+      "description": "A web-extension to examine if the website comprises your privacy.",
+      "skills": ["n8n", "langchain", "Typescript"],
+      "source": "https://github.com/an-siuu-man/HackUTD-2025",
+      "demo": "https://www.youtube.com/watch?v=Zxkp0P1eMl4&t=13s"
     }
 
    

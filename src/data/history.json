@@ -1,23 +1,25 @@
 [
     {
+      "role": "Mechatronics Intern",
+      "organization": " Kalmar Ottawa",
+      "startDate": "May, 2026 ",
+      "endDate": " Aug, 2026",
+      "experiences": ["Designed J1939/CAN communication testbench for EV terminal tractors.", "Validated functioning of embedded hardware using PCAN."],
+      "imageSrc": "history/kalmar1.png",
+      "link": "https://www.kalmarottawa.com/"
+    },
+
+  
+  {
       "role": "Research Assistant",
       "organization": " KUARQ Research Lab",
       "startDate": "Dec, 2023",
-      "endDate": "Present",
-      "experiences": ["Simulated Quantum Algorithms on AI chips", "Co-authored, reviewed and proofread research papers and posters."],
+      "endDate": "May, 2026",
+      "experiences": ["Simulated Quantum Algorithms on AI accelerator", "Co-authored, reviewed and proofread research papers and posters."],
       "imageSrc": "history/kuarq.png",
       "link": "https://sites.google.com/view/esam-el-araby/research-group/member-biographies?authuser=0"
-    },
-
-
-    {
-      "role": "Research Assistant",
-      "organization": " KU Dept. of Phsics and Astronomy",
-      "startDate": "May, 2022",
-      "endDate": "Dec, 2023",
-      "experiences": ["Analyzed music data to find optimum way of compression.", "Utilized FPGA to implement SVD algorithm on real time data."],
-      "imageSrc": "history/KULogo.png",
-      "link": "https://physics.ku.edu/"
     }
+    
+    
     
   ]
