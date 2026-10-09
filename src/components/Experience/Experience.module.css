@@ -4,8 +4,9 @@
 .container {
 color: var(--text-primary);
 margin-top: 79px;
-margin-left: 10%;
-margin-right: 10%;
+width: min(100% - (2 * var(--content-padding)), var(--content-max-width));
+margin-left: auto;
+margin-right: auto;
 }
 
 .title {
@@ -63,7 +64,6 @@ margin-right: 10%;
 .skill p {
     font-size: 25px;
     font-weight: 500;
-    font-family: var(--font-primary);
 }
 
 .history {
@@ -95,10 +95,6 @@ margin-right: 10%;
    max-width: 250px;
    height: auto;
 
-}
-
-.historyItemDetails {
-    font-family: var(--font-primary);
 }
 
 .historyItemDetails h3 {

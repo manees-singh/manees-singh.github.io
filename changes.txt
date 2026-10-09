@@ -1,0 +1,12 @@
+- Font: Inter, Figtree, Helvetica, Geist, Arial (Sans-serif), if you want some serif font for big headers
+- Change image: LinkedIn Picture, remove halo from the background, resize image
+- Update resume button, don't download instead open it on a new tab
+- Try not to use monospace fonts
+- Experience: Add Kalmar
+- Number the publications, maybe separate them by Journal Articles vs Conference Proceedings
+- Update contact, remove grayscale, update gmail icon, 
+- Survival Cyberdeck: Demo and Code both open Github right now - update.
+- Try to keep consistent content width across all the sections.
+
+
+

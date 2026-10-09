@@ -7,12 +7,13 @@
   justify-content: space-between;
   padding-top: 10px;
   z-index: 2;
-  margin: 0 10%;
+  width: min(100% - (2 * var(--content-padding)), var(--content-max-width));
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
   font-size: 25px;
-  font-family: var(--font-secondary);
   font-weight: 200;
   text-decoration: none;
   color: var(--text-primary);

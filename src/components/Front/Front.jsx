@@ -14,7 +14,7 @@ export const Front = () => {
             </p>
 
             <div className={styles.buttonContainer}>
-                <a href={getImageUrl("front/Manish_resume.pdf")} download="Manish_Singh_Resume.pdf" className={styles.contactBtn}>My Resume</a>
+                <a href={getImageUrl("front/Manish_resume.pdf")} target="_blank" rel="noopener noreferrer" className={styles.contactBtn}>My Resume</a>
             </div>
         </div>
 
